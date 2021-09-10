@@ -1,0 +1,30 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>IMC</title>
+</head>
+<body>
+    <form id="formulario">
+    <fieldset>
+    	<legend>Calculo IMC</legend>
+    	
+        <label for="kilos">Kilos:</label>
+        <input name="kilos" type="text" />
+    
+        <label for="metros">metros:</label>
+        <input name="metros" type="text" />
+    
+        <label for="centimetros">centimetros:</label>
+        <input name="centimetros" type="text" />
+    
+        <label for="imc">imc:</label>
+        <input name="imc" type="text" disabled="disabled" />
+            
+        <a href="#" onclick="calcular();">Calcular</a>
+    </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
